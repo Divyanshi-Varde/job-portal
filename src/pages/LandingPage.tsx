@@ -97,7 +97,7 @@ const LandingPage = () => {
       </section>
 
       {/* {Accordion} */}
-      <Accordion type="single" collapsible>
+      <Accordion type="single" collapsible className="text-blue-400">
         {faqs.map((faq, index) => {
           return (
             <AccordionItem key={index} value={`item-${index + 1}`}>
